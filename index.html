@@ -5,15 +5,51 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#081426">
-<meta name="description" content="القزاز للحلول الرقمية - متجر الأنظمة والبرمجيات والحلول الإدارية والتعليمية.">
+<meta name="description" content="القزاز للحلول الرقمية - حلول برمجية وتعليمية وإدارية وتجارية">
 <title>القزاز للحلول الرقمية | المتجر</title>
-<link rel="stylesheet" href="style.css">
-<script src="config.js"></script>
+
+<link rel="stylesheet" href="style.css?v=20261112-4">
+
+<!-- تحميل إعدادات الموقع -->
+<script src="https://elkazzaz2018-wq.github.io/elkazzaz-digital/config.js?v=20261112-4"></script>
+
+<style>
+.form-status{
+  margin-top:15px;
+  padding:12px;
+  border-radius:9px;
+  font-size:14px;
+  display:none;
+  line-height:1.8;
+}
+.form-status.success{
+  display:block;
+  background:#123e32;
+  color:#8ff0c4;
+}
+.form-status.error{
+  display:block;
+  background:#51252d;
+  color:#ffd1d5;
+}
+.form-status.info{
+  display:block;
+  background:#18365a;
+  color:#c8e5ff;
+}
+button:disabled{
+  opacity:.6;
+  cursor:wait;
+}
+</style>
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="top">
 <div class="wrap nav">
+
 <a class="brand" href="index.html">
 القزاز <span>للحلول الرقمية</span>
 <small>ELKAZZAZ DIGITAL SOLUTIONS</small>
@@ -26,17 +62,27 @@
 </nav>
 
 <a class="btn small" href="#request">اطلب نظامًا</a>
+
 </div>
 </header>
 
 <main>
 
+<!-- HERO -->
 <section class="hero">
 <div class="wrap hero-grid">
+
 <div>
-<span class="kicker">حلول برمجية تصنع فرقًا</span>
-<h1>أدر أعمالك بذكاء<br>
-<em>مع القزاز للحلول الرقمية</em></h1>
+
+<span class="kicker">
+حلول برمجية تصنع فرقًا
+</span>
+
+<h1>
+أدر أعمالك بذكاء
+<br>
+<em>مع القزاز للحلول الرقمية</em>
+</h1>
 
 <p>
 أنظمة تعليمية وإدارية وتجارية تساعدك على تنظيم العمل،
@@ -53,71 +99,129 @@
 <span>تخصيص حسب احتياجك</span>
 <span>تدريب ودعم</span>
 </div>
+
 </div>
 
 <div class="hero-art">
 <div class="orb">K</div>
-<div class="float-card">✦ حلول رقمية<br><b>لأعمال أكثر تنظيمًا</b></div>
-<div class="mini-card">إدارة • متابعة • تقارير</div>
+<div class="float-card">
+✦ حلول رقمية
+<br>
+<b>لأعمال أكثر تنظيمًا</b>
 </div>
+<div class="mini-card">
+إدارة • متابعة • تقارير
+</div>
+</div>
+
 </div>
 </section>
 
+<!-- PRODUCTS -->
 <section class="section wrap" id="products">
+
 <div class="section-title">
 <span class="kicker">متجر البرمجيات</span>
 <h2>منتجاتنا الرقمية</h2>
 <p>اختر النظام المناسب لنشاطك واطلب عرضًا توضيحيًا.</p>
 </div>
 
-<div class="products" id="productGrid">
+<div class="products">
 
 <article class="product">
+
 <div class="product-icon">🎓</div>
 <span class="label">حل تعليمي</span>
+
 <h3>منظومة السنتر التعليمي الذكية</h3>
-<p>إدارة الطلاب والمجموعات والحضور والتحصيل والتقارير.</p>
+
+<p>
+إدارة الطلاب والمجموعات والحضور والتحصيل والتقارير.
+</p>
+
 <div class="tags">
-<i>الطلاب</i><i>الحضور</i><i>المدفوعات</i>
+<i>الطلاب</i>
+<i>الحضور</i>
+<i>المدفوعات</i>
 </div>
-<a class="btn block" href="center.html">تفاصيل المنتج</a>
+
+<a class="btn block" href="center.html">
+تفاصيل المنتج
+</a>
+
 </article>
 
 <article class="product">
+
 <div class="product-icon">📋</div>
 <span class="label">حل إداري</span>
+
 <h3>نظام توزيع الملاحظين</h3>
-<p>توزيع الملاحظين ومراقبي الأدوار وإعداد الجداول والكشوف.</p>
+
+<p>
+توزيع الملاحظين ومراقبي الأدوار وإعداد الجداول والكشوف.
+</p>
+
 <div class="tags">
-<i>التوزيع</i><i>العدالة</i><i>التقارير</i>
+<i>التوزيع</i>
+<i>العدالة</i>
+<i>التقارير</i>
 </div>
+
 <a class="btn block"
 href="https://elkazzaz2018-wq.github.io/Teacher-test/"
-target="_blank" rel="noopener">عرض النظام</a>
+target="_blank" rel="noopener">
+عرض النظام
+</a>
+
 </article>
 
 <article class="product">
+
 <div class="product-icon">📚</div>
 <span class="label">حل مدرسي</span>
+
 <h3>نظام الكنترول والنتائج</h3>
-<p>تنظيم بيانات الطلاب والدرجات وأرقام الجلوس والنتائج.</p>
+
+<p>
+تنظيم بيانات الطلاب والدرجات وأرقام الجلوس والنتائج.
+</p>
+
 <div class="tags">
-<i>الدرجات</i><i>النتائج</i><i>الشهادات</i>
+<i>الدرجات</i>
+<i>النتائج</i>
+<i>الشهادات</i>
 </div>
+
 <button class="btn block request-product"
-data-product="نظام الكنترول والنتائج">اطلب التفاصيل</button>
+data-product="نظام الكنترول والنتائج">
+اطلب التفاصيل
+</button>
+
 </article>
 
 <article class="product">
+
 <div class="product-icon">🛒</div>
 <span class="label">حل تجاري</span>
+
 <h3>نظام المبيعات والمخازن</h3>
-<p>إدارة المبيعات والمشتريات والأصناف والمخزون والحسابات.</p>
+
+<p>
+إدارة المبيعات والمشتريات والأصناف والمخزون والحسابات.
+</p>
+
 <div class="tags">
-<i>نقاط البيع</i><i>المخزون</i><i>الحسابات</i>
+<i>نقاط البيع</i>
+<i>المخزون</i>
+<i>الحسابات</i>
 </div>
+
 <button class="btn block request-product"
-data-product="نظام المبيعات والمخازن">اطلب التفاصيل</button>
+data-product="نظام المبيعات والمخازن">
+اطلب التفاصيل
+</button>
+
 </article>
 
 </div>
@@ -125,13 +229,19 @@ data-product="نظام المبيعات والمخازن">اطلب التفاص�
 <p class="small-note">
 الأسعار والتفاصيل النهائية تحدد حسب إصدار النظام واحتياجات العميل.
 </p>
+
 </section>
 
+<!-- ABOUT -->
 <section class="section band" id="about">
+
 <div class="wrap two">
+
 <div>
 <span class="kicker">من نحن</span>
+
 <h2>تقنية عملية… وإدارة أسهل</h2>
+
 <p>
 القزاز للحلول الرقمية تقدم حلولًا برمجية لتطوير الأعمال
 التعليمية والإدارية والتجارية، مع الاهتمام بسهولة الاستخدام
@@ -140,38 +250,71 @@ data-product="نظام المبيعات والمخازن">اطلب التفاص�
 </div>
 
 <div class="stats">
-<div><b>01</b><span>حلول تعليمية</span></div>
-<div><b>02</b><span>حلول إدارية</span></div>
-<div><b>03</b><span>حلول تجارية</span></div>
+
+<div>
+<b>01</b>
+<span>حلول تعليمية</span>
 </div>
+
+<div>
+<b>02</b>
+<span>حلول إدارية</span>
+</div>
+
+<div>
+<b>03</b>
+<span>حلول تجارية</span>
+</div>
+
+</div>
+
 </div>
 </section>
 
+<!-- CUSTOMER REQUEST -->
 <section class="section wrap" id="request">
+
 <div class="section-title">
+
 <span class="kicker">ابدأ الآن</span>
+
 <h2>اطلب تجربة أو عرض سعر</h2>
-<p>املأ البيانات الأساسية وسنتواصل معك لمناقشة احتياجك.</p>
+
+<p>
+املأ البيانات الأساسية وسنتواصل معك لمناقشة احتياجك.
+</p>
+
 </div>
 
 <form id="leadForm" class="form-card">
+
 <div class="form-grid">
 
-<label>الاسم بالكامل
-<input name="name" required maxlength="90" placeholder="اسم العميل">
+<label>
+الاسم بالكامل
+<input name="name"
+required maxlength="90"
+placeholder="اسم العميل">
 </label>
 
-<label>رقم الهاتف
-<input name="phone" required inputmode="tel"
-maxlength="20" placeholder="01xxxxxxxxx">
+<label>
+رقم الهاتف
+<input name="phone"
+required inputmode="tel"
+maxlength="20"
+placeholder="01xxxxxxxxx">
 </label>
 
-<label>البريد الإلكتروني (اختياري)
-<input name="email" type="email" maxlength="120"
+<label>
+البريد الإلكتروني (اختياري)
+<input name="email"
+type="email"
+maxlength="120"
 placeholder="name@example.com">
 </label>
 
-<label>النظام المطلوب
+<label>
+النظام المطلوب
 <select name="product" required>
 <option value="">اختر المنتج</option>
 <option>منظومة السنتر التعليمي الذكية</option>
@@ -182,162 +325,418 @@ placeholder="name@example.com">
 </select>
 </label>
 
-<label class="wide">اسم المؤسسة أو النشاط
-<input name="organization" maxlength="120"
+<label class="wide">
+اسم المؤسسة أو النشاط
+<input name="organization"
+maxlength="120"
 placeholder="اسم السنتر أو المؤسسة (اختياري)">
 </label>
 
-<label class="wide">تفاصيل الطلب
-<textarea name="message" rows="4" maxlength="1000"
+<label class="wide">
+تفاصيل الطلب
+<textarea name="message"
+rows="4"
+maxlength="1000"
 placeholder="اكتب احتياجك أو استفسارك"></textarea>
 </label>
 
 </div>
 
-<input name="website" class="trap" tabindex="-1"
-autocomplete="off" aria-hidden="true">
+<!-- حقل مكافحة الإرسال الآلي -->
+<input name="website"
+class="trap"
+tabindex="-1"
+autocomplete="off"
+aria-hidden="true">
 
 <div class="form-actions">
-<button class="btn" type="submit" id="submitBtn">إرسال الطلب</button>
-<a class="btn whatsapp" id="waLink"
-target="_blank" rel="noopener">تواصل عبر واتساب</a>
+
+<button class="btn"
+type="submit"
+id="submitBtn">
+إرسال الطلب
+</button>
+
+<a class="btn whatsapp"
+id="waLink"
+target="_blank"
+rel="noopener">
+تواصل عبر واتساب
+</a>
+
 </div>
 
-<p class="form-status" id="formStatus" role="status"></p>
+<p class="form-status"
+id="formStatus"
+role="status"
+aria-live="polite"></p>
 
 <p class="privacy">
 يرجى عدم إرسال بيانات طلاب أو معلومات شخصية حساسة في هذا النموذج.
 </p>
+
 </form>
+
 </section>
 
+<!-- CONTACT -->
 <section class="section band" id="contact">
+
 <div class="wrap contact-row">
+
 <div>
+
 <span class="kicker">تواصل معنا</span>
+
 <h2>نحن جاهزون لمساعدتك</h2>
+
 <p>واتساب: 01013041847</p>
+
 </div>
-<a class="btn" id="contactWa"
-target="_blank" rel="noopener">ابدأ محادثة واتساب</a>
+
+<a class="btn"
+id="contactWa"
+target="_blank"
+rel="noopener">
+ابدأ محادثة واتساب
+</a>
+
 </div>
 </section>
 
 </main>
 
+<!-- FOOTER -->
 <footer>
+
 <div class="wrap foot">
-<b>القزاز للحلول الرقمية</b>
-<span>© <span id="year"></span> جميع الحقوق محفوظة</span>
-<a href="admin.html">دخول الإدارة</a>
+
+<strong>القزاز للحلول الرقمية</strong>
+
+<span>
+© <span id="year"></span>
+جميع الحقوق محفوظة
+</span>
+
+<a href="index.html">العودة إلى الرئيسية</a>
+
 </div>
+
 </footer>
 
-<iframe name="submitFrame" id="submitFrame" hidden></iframe>
+<!-- إطار استقبال نتيجة الخادم -->
+<iframe
+name="submitFrame"
+id="submitFrame"
+hidden>
+</iframe>
 
 <script>
+
+// =====================================
+// 1. إعدادات الموقع
+// =====================================
+
 const cfg = window.ELKAZZAZ_CONFIG || {};
+
 const phone = cfg.WHATSAPP || "201013041847";
 
-const wa = text =>
-"https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+const api = String(cfg.API_URL || "").trim();
+
+console.log("ELKAZZAZ CONFIG:", cfg);
+console.log("DATABASE API:", api);
+
+// =====================================
+// 2. أدوات التواصل
+// =====================================
+
+function whatsappLink(message) {
+
+return "https://wa.me/" +
+phone +
+"?text=" +
+encodeURIComponent(message);
+
+}
 
 document.getElementById("waLink").href =
-wa("السلام عليكم، أريد الاستفسار عن منتجات القزاز للحلول الرقمية.");
+whatsappLink(
+"السلام عليكم، أريد الاستفسار عن منتجات القزاز للحلول الرقمية."
+);
 
 document.getElementById("contactWa").href =
-wa("السلام عليكم، أريد التواصل مع القزاز للحلول الرقمية.");
+whatsappLink(
+"السلام عليكم، أريد التواصل مع القزاز للحلول الرقمية."
+);
 
 document.getElementById("year").textContent =
 new Date().getFullYear();
 
+// =====================================
+// 3. اختيار منتج من المتجر
+// =====================================
+
 document.querySelectorAll(".request-product").forEach(button => {
+
 button.addEventListener("click", () => {
-document.querySelector('[name=product]').value =
+
+document.querySelector('[name="product"]').value =
 button.dataset.product;
-document.getElementById("request").scrollIntoView({
-behavior:"smooth"
+
+document.getElementById("request")
+.scrollIntoView({behavior:"smooth"});
+
 });
+
 });
-});
+
+// =====================================
+// 4. عرض حالة الإرسال
+// =====================================
+
+function showStatus(message, type) {
+
+const status = document.getElementById("formStatus");
+
+status.textContent = message;
+
+status.className = "form-status " + type;
+
+}
+
+// =====================================
+// 5. فحص إعدادات قاعدة البيانات
+// =====================================
+
+function checkDatabaseConfig() {
+
+if (!window.ELKAZZAZ_CONFIG) {
+return "لم يتم تحميل ملف config.js.";
+}
+
+if (!api) {
+return "رابط قاعدة البيانات غير موجود في config.js.";
+}
+
+if (!/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(api)) {
+return "رابط Google Apps Script غير صحيح. يجب أن ينتهي بـ /exec.";
+}
+
+return "";
+
+}
+
+// =====================================
+// 6. إرسال طلب العميل
+// =====================================
 
 const form = document.getElementById("leadForm");
 
-form.addEventListener("submit", event => {
+form.addEventListener("submit", function(event) {
+
 event.preventDefault();
 
-const api = (cfg.API_URL || "").trim();
-const status = document.getElementById("formStatus");
+const error = checkDatabaseConfig();
 
-if (!api || api.includes("PASTE_")) {
-status.textContent =
-"لم يتم ربط قاعدة البيانات بعد. يمكنك إرسال طلبك الآن عبر واتساب.";
+if (error) {
 
-const data = new FormData(form);
+showStatus(
+error + " راجع ملف config.js وإعدادات النشر.",
+"error"
+);
 
-const msg =
-"طلب جديد من الموقع\n" +
-"الاسم: " + data.get("name") + "\n" +
-"الهاتف: " + data.get("phone") + "\n" +
-"المنتج: " + data.get("product") + "\n" +
-"النشاط: " + data.get("organization") + "\n" +
-"التفاصيل: " + data.get("message");
+console.error(error);
 
-window.open(wa(msg), "_blank");
+return;
+
+}
+
+// فحص الحقول المطلوبة
+if (!form.reportValidity()) {
 return;
 }
 
-const submit = document.getElementById("submitBtn");
-submit.disabled = true;
-submit.textContent = "جارٍ الإرسال...";
-
-const frame = document.getElementById("submitFrame");
-let done = false;
-
-const finish = () => {
-if (done) return;
-done = true;
-submit.disabled = false;
-submit.textContent = "إرسال الطلب";
-status.textContent =
-"تم إرسال النموذج. سنتواصل معك بعد مراجعة الطلب.";
-form.reset();
-};
-
-frame.onload = () => {
-if (submit.dataset.started === "1") finish();
-};
+const submitButton =
+document.getElementById("submitBtn");
 
 const data = new FormData(form);
+
+// منع الروبوتات
+if (data.get("website")) {
+return;
+}
+
+submitButton.disabled = true;
+
+submitButton.textContent = "جارٍ إرسال الطلب...";
+
+showStatus(
+"جارٍ إرسال طلبك إلى قاعدة البيانات...",
+"info"
+);
+
+// تجهيز نموذج إرسال مستقل
+const tempForm = document.createElement("form");
+
+tempForm.method = "POST";
+
+tempForm.action = api;
+
+tempForm.target = "submitFrame";
+
+tempForm.style.display = "none";
+
 data.append("action", "newLead");
 
-const temp = document.createElement("form");
-temp.method = "POST";
-temp.action = api;
-temp.target = "submitFrame";
-temp.style.display = "none";
-
 for (const [key, value] of data.entries()) {
+
 const input = document.createElement("input");
+
+input.type = "hidden";
+
 input.name = key;
+
 input.value = value;
-temp.appendChild(input);
+
+tempForm.appendChild(input);
+
 }
 
-document.body.appendChild(temp);
-submit.dataset.started = "1";
-temp.submit();
+document.body.appendChild(tempForm);
 
+// مراقبة نتيجة الخادم
+const frame = document.getElementById("submitFrame");
+
+let submitted = false;
+
+let finished = false;
+
+function finish(message, type) {
+
+if (finished) return;
+
+finished = true;
+
+submitButton.disabled = false;
+
+submitButton.textContent = "إرسال الطلب";
+
+showStatus(message, type);
+
+tempForm.remove();
+
+}
+
+frame.onload = function() {
+
+if (!submitted || finished) return;
+
+try {
+
+const response =
+frame.contentDocument.body.innerText || "";
+
+if (response.includes("تم استلام طلبك بنجاح")) {
+
+finish(
+"تم استلام طلبك بنجاح! شكرًا لثقتك في القزاز للحلول الرقمية.",
+"success"
+);
+
+form.reset();
+
+} else if (response.includes("تم استلام طلب حديث")) {
+
+finish(
+"تم استلام طلب حديث بنفس رقم الهاتف. يرجى الانتظار قبل إعادة الإرسال.",
+"info"
+);
+
+} else if (response.includes("تعذر حفظ الطلب")) {
+
+finish(
+"تعذر حفظ الطلب. يرجى المحاولة مرة أخرى أو التواصل عبر واتساب.",
+"error"
+);
+
+} else if (response.includes("يرجى استكمال")) {
+
+finish(
+"يرجى استكمال البيانات المطلوبة.",
+"error"
+);
+
+} else {
+
+finish(
+"تم إرسال الطلب. يرجى مراجعة لوحة الإدارة للتأكد من وصوله.",
+"info"
+);
+
+}
+
+} catch (error) {
+
+// قد يمنع المتصفح قراءة نتيجة الخادم بسبب اختلاف النطاق.
+// لا يعني ذلك بالضرورة فشل عملية الحفظ.
+finish(
+"أُرسل الطلب إلى الخادم. تحقق من لوحة الإدارة للتأكد من تسجيله.",
+"info"
+);
+
+}
+
+};
+
+try {
+
+submitted = true;
+
+tempForm.submit();
+
+} catch (error) {
+
+console.error("Submit error:", error);
+
+finish(
+"حدث خطأ أثناء إرسال الطلب: " + error.message,
+"error"
+);
+
+return;
+
+}
+
+// مهلة احتياطية
 setTimeout(() => {
-if (!done) {
-submit.disabled = false;
-submit.textContent = "إرسال الطلب";
-status.textContent =
-"تم إرسال الطلب. إذا لم يصلك تأكيد، تواصل معنا عبر واتساب.";
-}
-temp.remove();
-}, 3500);
+
+if (finished) return;
+
+finish(
+"تم إرسال الطلب. إذا لم يظهر في لوحة الإدارة، راجع إعدادات Apps Script.",
+"info"
+);
+
+}, 8000);
+
 });
+
+// =====================================
+// 7. تشخيص إعدادات الربط
+// =====================================
+
+const configError = checkDatabaseConfig();
+
+if (configError) {
+
+console.warn("Database configuration:", configError);
+
+} else {
+
+console.log("Database configuration loaded successfully.");
+
+}
+
 </script>
 
 </body>
