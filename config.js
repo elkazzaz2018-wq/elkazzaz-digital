@@ -1,0 +1,6 @@
+
+window.ELKAZZAZ_CONFIG = {
+  API_URL: "PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE",
+  WHATSAPP: "201013041847",
+  BRAND: "القزاز للحلول الرقمية"
+};
